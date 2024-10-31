@@ -1,0 +1,81 @@
+body {
+  width: 600px;
+  height: 300px;
+  min-width: 600px;
+  min-height: 300px;
+  max-width: 800px;
+  max-height: 600px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.popup-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* New styles for highlighting tags in the message text box */
+.message-text-box [class^="tag-"] {
+  display: inline-block;
+  background-color: #e6f3ff;
+  border: 1px solid #a8d1ff;
+  border-radius: 3px;
+  padding: 0 4px;
+  margin: 0 2px;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+/* Styles for the tag list */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  background-color: #e6f3ff;
+  border: 1px solid #a8d1ff;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-weight: bold;
+  color: #0066cc;
+  cursor: pointer;
+}
+.tag:hover {
+  background-color: #d1e7ff;
+}

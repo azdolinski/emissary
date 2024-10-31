@@ -1,0 +1,21 @@
+body,
+html {
+  margin-top: 0px;
+}
+
+#__root {
+  margin-top: 0px;
+}
+
+.container {
+  margin-top: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+}

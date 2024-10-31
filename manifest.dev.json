@@ -1,0 +1,19 @@
+{
+  "action": {
+    "default_icon": "public/icon_32x32.png",
+    "default_popup": "src/pages/popup/index.html"
+  },
+  "icons": {
+    "128": "public/icon_128x128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "contentStyle.css",
+        "icon_128x128.png",
+        "icon_32x32.png"
+      ],
+      "matches": []
+    }
+  ]
+}
